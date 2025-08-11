@@ -188,7 +188,8 @@
         position: relative;
         left: 10px; 
         padding-top: 0;     /* smaller right padding */
-        gap: 2px;
+        gap: 1px;
+        text-align: center;
     }
 
     .headerBtn {
@@ -239,3 +240,4 @@
         margin-bottom: 20px;
     }
 }
+
