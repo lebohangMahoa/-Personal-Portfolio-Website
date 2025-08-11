@@ -1,0 +1,50 @@
+/* HEADER STYLING */
+.header {
+    position: relative;
+    height: 60px; /* or whatever height works for your design */
+    z-index: 1000; /* ensure it's on top */ 
+}
+
+.headerRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative; 
+    margin-top: 18px;
+    padding-right: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.headerBtn {
+    font-family: 'Courier New', monospace;
+    background-color: #2c2c2c;
+    color: #faeeee;
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 0px 7px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+.headerBtn:hover {
+    background-color: #e6b800;
+    color: #faeeee;
+    border: 1px solid #faeeee;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.headerBtn:active {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
