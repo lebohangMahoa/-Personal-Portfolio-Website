@@ -188,6 +188,7 @@
         position: relative;
         left: 10px; 
         padding-top: 0;     /* smaller right padding */
+        margin-left: 12px;
         gap: 1px;
         text-align: center;
     }
@@ -240,4 +241,5 @@
         margin-bottom: 20px;
     }
 }
+
 
